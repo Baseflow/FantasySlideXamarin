@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Xam.Plugins.Android.FantasySlide</id>
+        <version>1.0.4</version>
+        <title>FantasySlide for Xamarin.Android</title>
+        <authors>Martijn van Dijk</authors>
+        <owners>Martijn van Dijk</owners>
+        <licenseUrl>https://github.com/martijn00/FantasySlideXamarin/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/martijn00/FantasySlideXamarin</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/martijn00/FantasySlideXamarin/master/icon_fantasyslide.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>FantasySlide for Xamarin Android</description>
+        <summary>FantasySlide is another sliding menu based on DrawerLayout</summary>
+        <tags>xamarin, monodroid, C#, xamarin.android, android, FantasySlide, DrawerLayout, sliding</tags>
+        <dependencies>
+            <group targetFramework="MonoAndroid0.0">
+                <dependency id="Xamarin.Android.Support.v4" version="23.4.0.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\FantasySlide\bin\Release\FantasySlide.dll" target="lib\MonoAndroid\FantasySlide.dll" />
+    </files>
+</package>
